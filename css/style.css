@@ -221,7 +221,7 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url(../img/Image\ \(8\).jpg) center center no-repeat;
+    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url(../img/truck-4.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -420,7 +420,7 @@
 
 /*** Footer ***/
 .footer {
-    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url(../img/map.png) center center no-repeat;
+    background: white;
     background-size: cover;
 }
 
