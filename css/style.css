@@ -23,6 +23,11 @@
     padding: 5px;
 }
 
+.aboutSection{
+    max-width: 80%; 
+    margin: auto;
+}
+
 .card-header-accordion :hover{
     background-color: #00A9FD;
 }
@@ -189,6 +194,11 @@
 
     .heroHeading {
         font-size: 6vw;
+    }
+
+    .aboutSection{
+        max-width: 95%; 
+        margin: auto;
     }
 
     .display-3 {
