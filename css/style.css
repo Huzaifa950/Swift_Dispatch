@@ -19,6 +19,14 @@
     z-index: 99;
 }
 
+.accordionHead {
+    padding: 5px;
+}
+
+.card-header-accordion :hover{
+    background-color: #00A9FD;
+}
+
 
 /*** Spinner ***/
 #spinner {
@@ -32,6 +40,11 @@
     transition: opacity .5s ease-out, visibility 0s linear 0s;
     visibility: visible;
     opacity: 1;
+}
+
+#accordion{
+    max-width: 60%;
+    margin: auto;
 }
 
 
@@ -59,6 +72,14 @@
 .btn-lg-square {
     width: 48px;
     height: 48px;
+}
+
+.heroHeading {
+    font-size: 2vw;
+}
+
+.display-3 {
+    font-size: 2vw;
 }
 
 .btn-square,
@@ -165,6 +186,19 @@
 
 /*** Header ***/
 @media (max-width: 768px) {
+
+    .heroHeading {
+        font-size: 6vw;
+    }
+
+    .display-3 {
+        font-size: 6vw;
+    }
+
+    .heroHeading > span{
+        font-size: 6vw;
+    }
+
     .header-carousel .owl-carousel-item {
         position: relative;
         min-height: 600px;
