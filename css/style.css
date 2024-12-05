@@ -28,6 +28,10 @@
     margin: auto;
 }
 
+.navBarLogo > img{
+    width: 6vw;
+}
+
 .card-header-accordion :hover{
     background-color: #00A9FD;
 }
@@ -120,6 +124,9 @@
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
     color: var(--blue);
+    font-weight: bold;
+    transition: 0.3s font-weight ease-in-out;
+    transition: 0.3s color ease-in-out;
 }
 
 @media (max-width: 991.98px) {
@@ -130,6 +137,10 @@
 
     .navbar-light .navbar-nav {
         border-top: 1px solid #EEEEEE;
+    }
+
+    .navBarLogo > img{
+        width: 7vw;
     }
 }
 
@@ -209,6 +220,10 @@
         font-size: 6vw;
     }
 
+    .navBarLogo > img{
+        width: 8vw;
+    }
+
     .header-carousel .owl-carousel-item {
         position: relative;
         min-height: 600px;
@@ -271,6 +286,18 @@
 
 .breadcrumb-item + .breadcrumb-item::before {
     color: var(--light);
+}
+
+@media (max-width: 600px) {
+    .navBarLogo > img{
+        width: 12vw;
+    }
+}
+
+@media (max-width: 450px) {
+    .navBarLogo > img{
+        width: 15vw;
+    }
 }
 
 
