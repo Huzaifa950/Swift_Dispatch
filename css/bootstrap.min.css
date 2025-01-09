@@ -103,7 +103,7 @@ h1,
 .content-wrapper {
   display: flex;
   justify-content: space-around;
-  max-width: 70%;
+  max-width: 80%;
   margin: auto;
 }
 
