@@ -118,7 +118,7 @@ h1,
       text-align: center;
   }
 
-  #image-div img {
+  .image-div > img {
       display: none;
   }
 }
