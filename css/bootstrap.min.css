@@ -107,7 +107,7 @@ h1,
   margin: auto;
 }
 
-@media screen and (max-width: 800px) {
+@media (min-width: 800px) {
   .content-wrapper {
       flex-direction: column;
       align-items: center;
