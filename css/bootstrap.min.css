@@ -100,7 +100,14 @@ h1,
   }
 }
 
-@media screen and (max-width: 1000px) {
+.content-wrapper {
+  display: flex;
+  justify-content: space-around;
+  max-width: 70%;
+  margin: auto;
+}
+
+@media screen and (max-width: 800px) {
   .content-wrapper {
       flex-direction: column;
       align-items: center;
