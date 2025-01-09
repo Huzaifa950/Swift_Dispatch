@@ -107,7 +107,7 @@ h1,
   margin: auto;
 }
 
-@media (min-width: 800px) {
+@media (max-width: 800px) {
   .content-wrapper {
       flex-direction: column;
       align-items: center;
@@ -119,8 +119,7 @@ h1,
   }
 
   #image-div img {
-      width: 100%;
-      height: auto;
+      display: none;
   }
 }
 
